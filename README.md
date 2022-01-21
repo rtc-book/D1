@@ -40,7 +40,7 @@ You may also want to configure your `Display` settings to improve the scale, vid
 
 ## Support
 
-If you need help, consider opening a new [issue](../issues).
+If you need help, consider opening a new [issue](../../issues).
 
 ## Troubleshooting installation
 
