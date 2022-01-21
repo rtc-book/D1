@@ -11,8 +11,10 @@
 ```console
 vagrant up
 ```
-This will create a new VM called rtcbook-dist that should be available in VirtualBox and boot right up. Note that everything should be set up (needs testing) through Part 3 of the CDT for myRIO instructions here:
+After several minutes (the download is large), this will create a new VM called rtcbook-dist that should be available in VirtualBox and boot right up. Note that everything should be set up (needs testing) through Part 3 of the CDT for myRIO instructions here:
 http://courses.washington.edu/mengr477/resources/CDT_for_myRIO.pdf
+
+After this initial setup, the virtual machine can be accessed directly through Virtual Box.
 
 ## Terminals
 
