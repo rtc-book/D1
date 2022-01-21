@@ -15,7 +15,7 @@ This repository contains all files and instructions necessary to create your own
 	```
 	2. Use a provided automatic installer for your operating system. 
 		1. On macOS, double-click `mac-installer.app`.
-		2. TODO On Windows, double click `win-installer.bat`.
+		2. On Windows, double-click `win-installer.bat` (untested).
 
 After several minutes (the download is large), this will create a new VM called rtcbook-dist that should be available in VirtualBox and boot right up. Note that everything should be set up (needs testing) through Part 3 of the CDT for myRIO instructions here:
 http://courses.washington.edu/mengr477/resources/CDT_for_myRIO.pdf
