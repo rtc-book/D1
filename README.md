@@ -1,5 +1,6 @@
 # vm-vagrant
 
+This repository contains all files and instructions necessary to create your own virtual machine for your development environment to accompany the book _Real-Time Computing for Mechanical Engineers_. The following should work on a host machine with Windows, macOS, and Linux.
 
 ## Installation
 
