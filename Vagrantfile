@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
     v.gui = true        # Enables the hypervisor's GUI
     v.memory = 4096     # Sets the VM's RAM
     v.cpus = 4
-    v.customize ["modifyvm", :id, "--usbehci", "on"] # Enables usb 2.0 controller
+    v.customize ["modifyvm", :id, "--usbxhci", "on"] # Enables usb 2.0 controller
     v.customize ["modifyvm", :id, "--draganddrop", "bidirectional"] # Enables drag-and-drop between host and guest
     v.customize ["modifyvm", :id, "--clipboard", "bidirectional"] # Enables a bidirectional clipboard between host and guest
     v.customize ["storageattach", :id, "--storagectl", "IDE Controller", "--port", "0", "--device", "0", "--type", "dvddrive", "--medium", "emptydrive"]
