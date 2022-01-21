@@ -30,6 +30,18 @@ The **password** is by default `vagrant` for the default user Vagrant. It is rec
 
 You're up and running!
 
+## Configuration your VM (optional)
+
+There are many configuration options for your VM in VirtualBox, accessible in the app through `Settings`, which are [documented here](https://www.virtualbox.org/manual/ch03.html).
+
+Most commonly, you may want to configure your `System` settings to improve performance ([documentation](https://www.virtualbox.org/manual/ch03.html#settings-system)).
+
+You may also want to configure your `Display` settings to improve the scale, video performance, etc. ([documentation](https://www.virtualbox.org/manual/ch03.html#settings-display)).
+
+## Support
+
+If you need help, consider opening a new [issue](issues).
+
 ## Troubleshooting installation
 
 Here are some general considerations, independent of host OS.
