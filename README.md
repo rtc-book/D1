@@ -10,9 +10,9 @@ This repository contains all files and instructions necessary to create your own
 4. Clone, fork, or download this repository. If you do not have `git` installed on your host computer, simply download this repository by clicking the green **Code** button, then **Download ZIP**, and unzip. We assume you now have this repo in a directory `vm-vagrant`.
 5. There are two ways to generate the virtual machine. 
 	1. In a [terminal window](#terminals), `cd` into the directory `vm-vagrant` and simply:
-```console
-vagrant up
-```
+	```console
+	vagrant up
+	```
 	2. On macOS, double-click `mac-installer.app`.
 	3. TODO On Windows, double click `win-installer.bat`.
 
