@@ -30,7 +30,7 @@ The **password** is by default `vagrant` for the default user Vagrant. It is rec
 
 You're up and running!
 
-## Configuration your VM (optional)
+## Configuring your VM (optional)
 
 There are many configuration options for your VM in VirtualBox, accessible in the app through `Settings`, which are [documented here](https://www.virtualbox.org/manual/ch03.html).
 
