@@ -1,10 +1,14 @@
 # vm-vagrant
 
-This repository contains all files and instructions necessary to create your own virtual machine for your development environment to accompany the book _Real-Time Computing for Mechanical Engineers_. The following should work on a host machine with Windows, macOS, or Linux.
+This repository contains all files and instructions necessary to create a self-contained **virtual machine** ([Wikipedia](https://en.wikipedia.org/wiki/Virtual_machine)) on your computer as a software development environment to accompany the book _Real-Time Computing for Mechanical Engineers_. The following setup instructions should work on a "host" (your) machine with Windows, macOS, or Linux.
+
+## Host computer requirements
+
+Your host machine must have Windows, macOS, or Linux and an x86 microprocessor (Apple's M1 processor, which is ARM, is not yet supported).
 
 ## Installation
 
-1. Install Virtualbox: https://www.virtualbox.org/wiki/Downloads
+1. Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads), which is virtualizer
 2. Install the Extension Pack (same page).
 3. Install Vagrant: https://www.vagrantup.com/downloads
 4. Clone, fork, or download this repository. If you do not yet know what `git` is or have it installed on your host computer, simply download this repository by clicking the green **Code** button, then **Download ZIP**, and unzip. We assume you now have this repo in a directory `vm-vagrant` (or `vm-vagrant-main`).
