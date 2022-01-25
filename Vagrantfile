@@ -7,8 +7,13 @@
 # you're doing.
 Vagrant.configure("2") do |config|
   # Base
-  # config.vm.box = "rtcbook.box"
   config.vm.box = "drrico/rtcbook" # remote
+  config.vm.define "rtcbook-dist", primary: true do |dist|
+    dist.vm.box = "../dist/rtcbook.box"
+  end
+  config.vm.define "test" do |test|
+    test.vm.box = "../dist/rtcbook.box"
+  end
 
   # Customization
   config.vm.communicator = "winrm"
