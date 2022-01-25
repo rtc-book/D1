@@ -7,12 +7,11 @@
 # you're doing.
 Vagrant.configure("2") do |config|
   # Base
-  config.vm.box = "drrico/rtcbook" # remote
   config.vm.define "rtcbook-dist", primary: true do |dist|
-    dist.vm.box = "../dist/rtcbook.box"
+    config.vm.box = "drrico/rtcbook" # remote
   end
   config.vm.define "test" do |test|
-    test.vm.box = "../dist/rtcbook.box"
+    config.vm.box = "../dist/rtcbook.box"
   end
 
   # Customization
