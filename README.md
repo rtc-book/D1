@@ -42,6 +42,23 @@ Most commonly, you may want to configure your `System` settings to improve perfo
 
 You may also want to configure your `Display` settings to improve the scale, video performance, etc. ([documentation](https://www.virtualbox.org/manual/ch03.html#settings-display)).
 
+## Updating
+
+If you would like to update a local Vagrant box built with a previous version of `drrico/rtcbook`, first delete your old VM in VirtualBox (back up anything you've saved in the machine -- hopefully you've kept all your files in the shared folder, which will not be deleted).
+
+With the associated VM deleted (or shut down), update your local boxes with the following.
+```console
+vagrant box update
+```
+You can now re-generate your VM, as before.
+```console
+vagrant up
+```
+You may then want to get rid of your local copy of the old box.
+```console
+vagrant box prune
+```
+
 ## Support
 
 If you need help, consider opening a new [issue](../../issues).
