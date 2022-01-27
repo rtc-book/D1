@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "rtcbook-dist", primary: true do |dist|
     config.vm.box = "drrico/rtcbook" # remote
   end
-  config.vm.define "test" do |test|
+  config.vm.define "test", autostart: false , primary: false do |test|
     config.vm.box = "../dist/rtcbook.box"
   end
 
