@@ -44,7 +44,33 @@ You may also want to configure your `Display` settings to improve the scale, vid
 
 ## Updating
 
-If you would like to update a local Vagrant box built with a previous version of `drrico/rtcbook`, first delete your old VM in VirtualBox (back up anything you've saved in the machine -- hopefully you've kept all your files in the shared folder, which will not be deleted).
+There are two primary components you may want to update.
+
+### Updating your copy of this repo
+
+If there is an update to this repository, you have a few options for updating your local copy.
+
+#### If you forked this repo
+
+In this case, use [GitHub's instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
+
+#### If you cloned this repo
+
+In this case, you can simply `cd` to your local copy and
+```console
+git pull
+```
+Note that you cannot push your changes back to the remote (GitHub) because you do not have permissions.
+
+#### If you downloaded the ZIP of this repo
+
+You are pretty much stuck re-downloading or choosing one of the other methods (described in step 4 of [Installation](#installation)) for getting this repo.
+
+**Warning** You should consider saving your old `workspace` directory and potentially bringing in your work to the new copy.
+
+### Updating the Vagrant box
+
+If you would like to update a local Vagrant box built with a previous version of [drrico/rtcbook](https://app.vagrantup.com/drrico/boxes/rtcbook), which is the base of your VM, first delete your old VM in VirtualBox (back up anything you've saved in the machine -- hopefully you've kept all your files in the shared folder, which will not be deleted).
 
 With the associated VM deleted (or shut down), update your local boxes with the following.
 ```console
