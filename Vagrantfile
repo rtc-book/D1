@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   end
 
   # Shared folder
-  config.vm.synced_folder ".", "C:/vagrant", automount: true
+  config.vm.synced_folder ".", 'C:\vagrant', automount: true
 
   # Customization
   config.vm.communicator = "winrm"
