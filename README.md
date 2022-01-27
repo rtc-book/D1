@@ -115,7 +115,7 @@ With the VM running, plugging in the myRIO to one of your computer's USB ports s
 1. Make sure the myRIO is connected to your computer via USB.
 2. With the VM running, go to the toolbar `Devices` → `USB` and, if it is not checked, click `Linux 3.14.40 ...`. Verify that it is checked and retry.
 3. Occasionally, the "ethernet" connection can be corrupted. To ⊞ → `Settings` → `Network & Internet` → `Properties` → `Change Adpater Options`. The `Ethernet 2` connection should appear. Right-click on it and select `Diagnose`, as shown below. Try to automatically repair the connection. It may say the repair was unsuccessful, but it may in fact have worked.
-![screenshot](docs/repair-connection-to-myrio.png)
+![screenshot](docs/figures/repair-connection-to-myrio.png)
 
 ## Terminals
 
