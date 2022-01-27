@@ -104,6 +104,19 @@ Here are some general considerations, independent of host OS.
 	1. Go to  → System Preferences → Security & Privacy → Privacy → Full Disk Access and make sure `Terminal.app` is checked (may need to unlock).
 	1. Go to  → System Preferences → Security & Privacy → Privacy → Files and Folders and make sure `Terminal.app` is checked (may need to unlock).
 
+## Troubleshooting the VM
+
+The following issues may occur after installation.
+
+### Can't connect to myRIO target
+
+With the VM running, plugging in the myRIO to one of your computer's USB ports should automatically connect it with your VM. If there are issues, try the following.
+
+1. Make sure the myRIO is connected to your computer via USB.
+2. With the VM running, go to the toolbar `Devices` → `USB` and, if it is not checked, click `Linux 3.14.40 ...`. Verify that it is checked and retry.
+3. Occasionally, the "ethernet" connection can be corrupted. To ⊞ → `Settings` → `Network & Internet` → `Properties` → `Change Adpater Options`. The `Ethernet 2` connection should appear. Right-click on it and select `Diagnose`, as shown below. Try to automatically repair the connection. It may say the repair was unsuccessful, but it may in fact have worked.
+![screenshot](docs/repair-connection-to-myrio.png)
+
 ## Terminals
 
 A terminal is an interactive command-line program in which a user enters text commands that are interpreted and executed by the operating system.
