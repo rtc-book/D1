@@ -102,8 +102,6 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -165,7 +163,7 @@ end run</string>
 					<key>COMMAND_STRING</key>
 					<string>cd "$1"
 export PATH=/usr/local/bin:$PATH
-VBoxManage sharedfolder add rtcbook-dist --name vagrant --hostpath "." --automount</string>
+VBoxManage sharedfolder add rtcbook-dist --name vagrant --hostpath "C:\\vagrant" --automount</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -275,8 +273,6 @@ VBoxManage sharedfolder add rtcbook-dist --name vagrant --hostpath "." --automou
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -290,7 +286,7 @@ VBoxManage sharedfolder add rtcbook-dist --name vagrant --hostpath "." --automou
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>477FD1A6-0660-41F4-B042-697A51AEE7A6</key>
+		<key>88D8274C-83CA-457E-BC82-4D4C79602D6B</key>
 		<dict>
 			<key>from</key>
 			<string>18C37D3D-7418-4972-9C0D-DE83D70B62C7 - 18C37D3D-7418-4972-9C0D-DE83D70B62C7</string>
