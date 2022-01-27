@@ -117,6 +117,15 @@ With the VM running, plugging in the myRIO to one of your computer's USB ports s
 3. Occasionally, the "ethernet" connection can be corrupted. To ⊞ → `Settings` → `Network & Internet` → `Properties` → `Change Adpater Options`. The `Ethernet 2` connection should appear. Right-click on it and select `Diagnose`, as shown below. Try to automatically repair the connection. It may say the repair was unsuccessful, but it may in fact have worked.
 ![screenshot](docs/figures/repair-connection-to-myrio.png)
 
+### Missing shared folder/empty workspace
+
+The directory created from this repository, `vm-vagrant` (or `vm-vagrant-main`), should be automatically available on the guest as a shared folder at `C:\vagrant`. Occasionally, something goes wrong and VirtualBox will lose the shared folder. If this happens, it can be re-added in the VirtualBox gui. Alternatively, in a terminal window on the host machine, the following will reconnect the shared folder.
+```console
+VBoxManage sharedfolder add rtcbook --name vagrant --hostpath "." --automount --auto-mount-point 'C:\vagrant'
+```
+
+Alternatively, if you are on a macOS host, the automated app `mac-mount-shared-folder.app` can do this automatically.
+
 ## Terminals
 
 A terminal is an interactive command-line program in which a user enters text commands that are interpreted and executed by the operating system.
