@@ -165,3 +165,97 @@ Info: Nothing to build for myHelloWorld
 Info: Nothing to build for myHelloWorld
 Info: Nothing to build for myHelloWorld
 Info: Nothing to build for myHelloWorld
+05:11:01 **** Rebuild of configuration Debug for project me477Library_v4_distribution ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\me477Library_v4_distribution\\C_Support" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\C_Support\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\me477Library_v4_distribution\\C_Support" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\C_Support\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\me477Library_v4_distribution\\C_Support" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\C_Support\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-ar -r libme477Library_v4_distribution.a "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" 
+05:11:04 **** Incremental Build of configuration Debug for project myHelloWorld ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myHelloWorld main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+05:11:06 **** Rebuild of configuration Debug for project myLab0 ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myLab0 main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+05:11:07 **** Rebuild of configuration Debug for project myLab1 ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myLab1 main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+05:11:09 **** Rebuild of configuration Debug for project myLab2 ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myLab2 main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+05:11:11 **** Rebuild of configuration Debug for project myLab3 ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myLab3 main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+05:11:13 **** Rebuild of configuration Debug for project myLab4 ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myLab4 main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+05:11:14 **** Rebuild of configuration Debug for project myLab5 ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myLab5 main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+05:11:16 **** Rebuild of configuration Debug for project myLab6 ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myLab6 main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+05:11:18 **** Rebuild of configuration Debug for project myLab7 ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myLab7 main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+05:11:20 **** Rebuild of configuration Debug for project myLab8 ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o Sramps.o "..\\Sramps.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myLab8 main.o Sramps.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+Info: Nothing to build for myHelloWorld
+02:09:23 **** Rebuild of configuration Debug for project myHelloWorld ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myHelloWorld main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
+Info: Nothing to build for myHelloWorld
+Info: Nothing to build for myHelloWorld
+02:53:06 **** Rebuild of configuration Debug for project myHelloWorld ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\workspace\\C Support for myRIO\\source" -lm -o myHelloWorld main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\me477Library_v4_distribution\\Debug\\libme477Library_v4.a" -ldl -lvisa -lpthread 
