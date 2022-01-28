@@ -8,10 +8,10 @@
 Vagrant.configure("2") do |config|
   # Base
   config.vm.define "rtcbook-dist", primary: true do |dist|
-    config.vm.box = "drrico/rtcbook" # remote
+    dist.vm.box = "drrico/rtcbook" # remote
   end
   config.vm.define "test", autostart: false , primary: false do |test|
-    config.vm.box = "../dist/rtcbook.box"
+    test.vm.box = "../dist/rtcbook.box"
   end
 
   # Shared folder
