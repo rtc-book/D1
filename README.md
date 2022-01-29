@@ -12,7 +12,7 @@ At least 8 GB of RAM is recommended, but you can get away with 4 GB if you edit 
 
 Since most will be installing on top of a Windows host machine, here's a video walking you through that installation process.
 
-[<img src="https://i.ytimg.com/vi/b5ZNBc99OnU/maxresdefault.jpg" alt="thumbnail of a youtube video walkthrough for installing on Windows" style="width:200px">](https://www.youtube.com/watch?v=b5ZNBc99OnU)
+[<img src="https://i.ytimg.com/vi/b5ZNBc99OnU/maxresdefault.jpg" alt="thumbnail of a youtube video walkthrough for installing on Windows" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">](https://www.youtube.com/watch?v=b5ZNBc99OnU)
 
 1. Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads), which is a hypervisor that lets you run virtual machines.
 2. Install the Extension Pack (same page).
