@@ -6,11 +6,16 @@ This repository contains all files and instructions necessary to create a self-c
 
 Your host machine must have Windows, macOS, or Linux and an x86 microprocessor (Apple's M1 processor, which is ARM, is not yet supported).
 
+At least 8 GB of RAM is recommended, but you can get away with 4 GB if you edit the `Vagrantfile` to reduce the default memory and CPU assigned to the virtual machine (see installation video).
+
 ## Installation
 
-1. Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads), which is virtualizer
+Since most will be installing on top of a Windows host machine, here's a video walking you through that installation process.
+[![thumbnail of a youtube video walkthrough for installing on Windows](https://img.youtube.com/vi/b5ZNBc99OnU/0.jpg)](https://www.youtube.com/watch?v=b5ZNBc99OnU)
+
+1. Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads), which is a hypervisor that lets you run virtual machines.
 2. Install the Extension Pack (same page).
-3. Install Vagrant: https://www.vagrantup.com/downloads
+3. Install [Vagrant](https://www.vagrantup.com/downloads), which is a virtual machine builder.
 4. Clone, fork, or download this repository. If you do not yet know what `git` is or have it installed on your host computer, simply download this repository by clicking the green **Code** button, then **Download ZIP**, and unzip. We assume you now have this repo in a directory `vm-vagrant` (or `vm-vagrant-main`).
 5. There are two ways to generate the virtual machine. 
 	1. In a [terminal window](#terminals), `cd` into the directory `vm-vagrant` (or `vm-vagrant-main`) and simply:
