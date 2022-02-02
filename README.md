@@ -16,11 +16,12 @@ Since most will be installing on top of a Windows host machine, here's a video w
 
 [<img src="docs/figures/vm-vagrant-setup-walkthrough-windows-thumb.jpg" alt="thumbnail of a youtube video walkthrough for installing on Windows" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">](https://www.youtube.com/watch?v=b5ZNBc99OnU)
 
-1. Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads), which is a hypervisor that lets you run virtual machines.
+1. Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads), which is a hypervisor that lets you run virtual machines. (See screenshot below.)
 2. Install the Extension Pack (same page).
-3. Install [Vagrant](https://www.vagrantup.com/downloads), which is a virtual machine builder.
-4. Clone, fork, or download this repository. If you do not yet know what `git` is or have it installed on your host computer, simply download this repository by clicking the green **Code** button, then **Download ZIP**, and unzip. We assume you now have this repo in a directory `vm-vagrant` (or `vm-vagrant-main`).
-5. There are two ways to generate the virtual machine. 
+    <img width="858" alt="Screen Shot 2022-02-01 at 4 05 27 PM" src="https://user-images.githubusercontent.com/4192991/152072318-94136b66-fc61-4aa0-aee1-6931bdeb020e.png">
+4. Install [Vagrant](https://www.vagrantup.com/downloads), which is a virtual machine builder.
+5. Clone, fork, or download this repository. If you do not yet know what `git` is or have it installed on your host computer, simply download this repository by clicking the green **Code** button, then **Download ZIP**, and unzip. We assume you now have this repo in a directory `vm-vagrant` (or `vm-vagrant-main`).
+6. There are two ways to generate the virtual machine. 
 	1. In a [terminal window](#terminals), `cd` into the directory `vm-vagrant` (or `vm-vagrant-main`) and simply:
 	```console
 	vagrant up
