@@ -19,7 +19,7 @@ Since most will be installing on top of a Windows host machine, here's a video w
 1. Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads), which is a hypervisor that lets you run virtual machines. (See screenshot below.)
 2. Install the Extension Pack (same page).
     
-    <img style="width: 60%;min-width:500px" alt="Screen shot of the Virtualbox Downloads page" src="https://user-images.githubusercontent.com/4192991/152072318-94136b66-fc61-4aa0-aee1-6931bdeb020e.png">
+    <img style="width: 60%;min-width:500px !important" alt="Screen shot of the Virtualbox Downloads page" src="https://user-images.githubusercontent.com/4192991/152072318-94136b66-fc61-4aa0-aee1-6931bdeb020e.png">
     
 4. Install [Vagrant](https://www.vagrantup.com/downloads), which is a virtual machine builder.
 5. Clone, fork, or download this repository. If you do not yet know what `git` is or have it installed on your host computer, simply download this repository by clicking the green **Code** button, then **Download ZIP**, and unzip. We assume you now have this repo in a directory `vm-vagrant` (or `vm-vagrant-main`).
