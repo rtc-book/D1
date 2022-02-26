@@ -1,4 +1,4 @@
-# vm-vagrant
+# The D1 development system
 
 This repository contains all files and instructions necessary to create a self-contained **virtual machine** ([Wikipedia](https://en.wikipedia.org/wiki/Virtual_machine)) on your computer as a software development environment to accompany the book _Real-Time Computing for Mechanical Engineers_. The following setup instructions should work on a "host" (your) machine with Windows, macOS, or Linux.
 
