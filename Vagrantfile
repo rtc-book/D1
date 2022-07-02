@@ -7,11 +7,11 @@
 # you're doing.
 Vagrant.configure("2") do |config|
   # Base
-  config.vm.define "rtcbook", primary: true do |dist|
-    dist.vm.box = "drrico/rtcbook" # remote
+  config.vm.define "rtcbook-T1D1", primary: true do |dist|
+    dist.vm.box = "drrico/rtcbook-T1D1" # remote
   end
   config.vm.define "test", autostart: false , primary: false do |test|
-    test.vm.box = "../dist/rtcbook.box"
+    test.vm.box = "../dist/rtcbook-T1D1.box"
   end
 
   # Shared folder
@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |v|
     v.linked_clone = false # for fast
     v.check_guest_additions = false # production skip
-    v.name = "rtcbook"    # Sets the new VM's name
+    v.name = "rtcbook-T1D1"    # Sets the new VM's name
     v.gui = true        # Enables the hypervisor's GUI
     v.memory = 4096     # Sets the VM's RAM
     v.cpus = 4
