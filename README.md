@@ -51,14 +51,15 @@ Your myRIO should have the following configuration:
 
 - Firmware Version: 7.0.0f0
 - Operating System: NI Linux Real-Time ARMv7-A 4.14.87-rt49-cg-7.0.0f0-xilinx-zynq-189
+- The `NiFpga_MyRio1900Fpga60.lvbitx` FPGA bitfile
 
-You can check your myRIO software with the following process:
+You can check your myRIO software and firmware with the following process:
 
 1. Open the NI MAX app.
 2. Navigate to and select `Remote Systems` → `<name of your myRIO>`.
 3. Your Firmware Version and Operating System should be listed under `System Settings`.
 
-If your Firmware Version or Operating System is not as shown above, proceed to update them, as follows.
+If your Firmware Version or Operating System is not as shown above, proceed to update them, as follows. Checking and installing the FPGA bitfile will be covered in a moment.
 
 ### Updating the myRIO Operating System
 
@@ -67,6 +68,17 @@ Still in NI MAX, expand your device under `Remote Systems` to reveal `Software`,
 ### Updating the myRIO Firmware
 
 Still in NI MAX, select your device under `Remote Systems`. In the `System Settings`, click the button `Update Firmware`. Navigate to `C:\Program Files (x86)\National Instruments\Shared\Firmware\cRIO\762F`, select the file `myRIO-1900_7.0.0.cfg`, and click `Open`. Proceed with `Begin Update` and follow the instructions.
+
+### Installing the FPGA bitfile
+
+In Eclipse, under the `Remote Systems Explorer`, 
+
+1. Navigate to `172.22.11.2/Sftp Files/Root///var/local/natinst/bitfiles`. 
+2. If the file in this directory is `NiFpga_MyRio1900Fpga60.lvbitx`, there is no need to proceed. Otherwise, delete any existing files in this directory.
+3. Right-click the `bitfiles` directory and select `Export From Project...`.
+4. Expand `C Support for myRIO` and select `source`.
+5. Check the box for `NiFpga_MyRio1900Fpga60.lvbitx` and click `Finish`.
+6. Check that the file appears in the correct directory.
 
 ## Configuring your VM (optional)
 
