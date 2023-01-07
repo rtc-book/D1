@@ -45,6 +45,29 @@ The **password** is by default `vagrant` for the default user Vagrant. It is rec
 
 You're up and running!
 
+## Configuring your myRIO
+
+Your myRIO should have the following configuration:
+
+- Firmware Version: 7.0.0f0
+- Operating System: NI Linux Real-Time ARMv7-A 4.14.87-rt49-cg-7.0.0f0-xilinx-zynq-189
+
+You can check your myRIO software with the following process:
+
+1. Open the NI MAX app.
+2. Navigate to and select `Remote Systems` → `<name of your myRIO>`.
+3. Your Firmware Version and Operating System should be listed under `System Settings`.
+
+If your Firmware Version or Operating System is not as shown above, proceed to update them, as follows.
+
+### Updating the myRIO Operating System
+
+Still in NI MAX, expand your device under `Remote Systems` to reveal `Software`, and select it. Click `Add/Remove Software` (enter password). The LabVIEW Real-Time 19.0.0 software should be recommended. Proceed with the installation.
+
+### Updating the myRIO Firmware
+
+Still in NI MAX, select your device under `Remote Systems`. In the `System Settings`, click the button `Update Firmware`. Navigate to `C:\Program Files (x86)\National Instruments\Shared\Firmware\cRIO\762F`, select the file `myRIO-1900_7.0.0.cfg`, and click `Open`. Proceed with `Begin Update` and follow the instructions.
+
 ## Configuring your VM (optional)
 
 There are many configuration options for your VM in VirtualBox, accessible in the app through `Settings`, which are [documented here](https://www.virtualbox.org/manual/ch03.html).
