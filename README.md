@@ -45,7 +45,7 @@ The **password** is by default `vagrant` for the default user Vagrant. It is rec
 
 You're up and running!
 
-## Configuring your myRIO
+<!-- ## Configuring your myRIO
 
 Your myRIO should have the following configuration:
 
@@ -86,7 +86,7 @@ There are many configuration options for your VM in VirtualBox, accessible in th
 
 Most commonly, you may want to configure your `System` settings to improve performance ([documentation](https://www.virtualbox.org/manual/ch03.html#settings-system)).
 
-You may also want to configure your `Display` settings to improve the scale, video performance, etc. ([documentation](https://www.virtualbox.org/manual/ch03.html#settings-display)).
+You may also want to configure your `Display` settings to improve the scale, video performance, etc. ([documentation](https://www.virtualbox.org/manual/ch03.html#settings-display)). -->
 
 ## Updating
 
