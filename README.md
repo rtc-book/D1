@@ -22,8 +22,12 @@ Since most will be installing on top of a Windows host machine, here's a video w
     <img style="width: 60%;min-width: 500px !important;max-width: 100%;" alt="Screen shot of the Virtualbox Downloads page" src="https://user-images.githubusercontent.com/4192991/152072318-94136b66-fc61-4aa0-aee1-6931bdeb020e.png">
     
 4. Install [Vagrant](https://www.vagrantup.com/downloads), which is a virtual machine builder.
-5. Clone, fork, or download this repository. If you do not yet know what `git` is or have it installed on your host computer, simply download this repository by clicking the green **Code** button, then **Download ZIP**, and unzip. We assume you now have this repo in a directory `vm-vagrant` (or `vm-vagrant-main`).
-6. There are two ways to generate the virtual machine. 
+5. In a [terminal window](#terminals), install the `vagrant-winrm` Vagrant plugin:
+    ```
+    vagrant plugin install vagrant-winrm
+    ```
+6. Clone, fork, or download this repository. If you do not yet know what `git` is or have it installed on your host computer, simply download this repository by clicking the green **Code** button, then **Download ZIP**, and unzip. We assume you now have this repo in a directory `vm-vagrant` (or `vm-vagrant-main`).
+7. There are two ways to generate the virtual machine. 
 	1. In a [terminal window](#terminals), `cd` into the directory `vm-vagrant` (or `vm-vagrant-main`) and simply:
 	```console
 	vagrant up
