@@ -14,6 +14,9 @@ Vagrant.configure("2") do |config|
     test.vm.box = "../dist/rtcbook-T1D1.box"
   end
 
+  # Set architecture
+  config.vm.box_architecture = nil
+
   # Shared folder
   config.vm.synced_folder ".", 'C:\vagrant', automount: true
 
