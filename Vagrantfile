@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   end
 
   # Set architecture
-  config.vm.box_architecture = nil
+  config.vm.box_architecture = "amd64"
 
   # Shared folder
   config.vm.synced_folder ".", 'C:\vagrant', automount: true
