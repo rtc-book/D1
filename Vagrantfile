@@ -7,11 +7,11 @@
 # you're doing.
 Vagrant.configure("2") do |config|
   # Base
-  config.vm.define "rtcbook-T1D1", primary: true do |dist|
-    dist.vm.box = "drrico/rtcbook-T1D1" # remote
+  config.vm.define "rtcbook-D1a", primary: true do |dist|
+    dist.vm.box = "drrico/rtcbook-D1a" # remote
   end
   config.vm.define "test", autostart: false , primary: false do |test|
-    test.vm.box = "../dist/rtcbook-T1D1.box"
+    test.vm.box = "../dist/rtcbook-D1a.box"
   end
 
   # Set architecture
