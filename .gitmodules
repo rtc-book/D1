@@ -1,6 +1,3 @@
 [submodule "workspace"]
 	path = workspace
 	url = https://github.com/rtc-book/T1D1-workspace.git
-[submodule "git-archive-all.sh"]
-	path = git-archive-all.sh
-	url = https://github.com/fabacab/git-archive-all.sh.git
