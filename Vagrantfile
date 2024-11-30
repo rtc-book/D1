@@ -26,7 +26,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |v|
     v.linked_clone = false # for fast
     v.check_guest_additions = false # production skip
-    v.name = "rtcbook-T1D1"    # Sets the new VM's name
+    v.name = "rtcbook-D1a"    # Sets the new VM's name
     v.gui = true        # Enables the hypervisor's GUI
     v.memory = 4096     # Sets the VM's RAM
     v.cpus = 4
